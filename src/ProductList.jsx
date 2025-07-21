@@ -312,7 +312,7 @@ function ProductList({ onHomeClick }) {
                                         />
                                         <div className="product-title">{plant.name}</div> {/* Display plant name */}
                                         <div className="product-description">{plant.description}</div> {/* Display plant description */}
-                                        <div className="product-cost">${plant.cost}</div> {/* Display plant cost */}
+                                        <div className="product-cost">{plant.cost}</div> {/* Display plant cost */}
                                         <button
                                             className="product-button"
                                             disabled={addedToCart[plant.name]}
