@@ -334,3 +334,4 @@ function ProductList({ onHomeClick }) {
 }
 
 export default ProductList;
+export { calculateTotalQuantity }; 
